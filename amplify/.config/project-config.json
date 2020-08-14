@@ -1,0 +1,17 @@
+{
+    "projectName": "amplifyapptest",
+    "version": "3.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "D:\\works\\github\\amplifyapp_test",
+            "DistributionDir": "build",
+            "BuildCommand": "npm.cmd run-script build",
+            "StartCommand": "npm.cmd run-script start"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}
